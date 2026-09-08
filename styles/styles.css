@@ -42,6 +42,7 @@ nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    padding: 0.5rem;
 }
 
 nav a:hover {
@@ -80,7 +81,8 @@ main h2 {
     padding: 0.75rem;
 }
 
-.about-content, .country-content {
+.about-content,
+.country-content {
     display: flex;
     gap: 1rem;
     padding: 1rem;
@@ -137,7 +139,24 @@ footer p:last-child {
 }
 
 @media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
     .container {
         grid-template-columns: 1fr;
+    }
+
+    .about-content,
+    .country-content {
+        flex-direction: column;
+        align-items: center;
     }
 }
