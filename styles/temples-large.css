@@ -1,1 +1,12 @@
+@media (min-width: 768px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+    }
 
+    nav {
+        margin-top: 0;
+    }
+}
