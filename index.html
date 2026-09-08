@@ -1,43 +1,68 @@
 <!DOCTYPE html>
-<html lang="en-US">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OYINLOLA OYEDEJI ASHADE | WDD 130</title>
-    <meta name="author" content="Oyinlola Oyedeji Ashade">
-    <meta name="description"
-      content="I'm learning HTML and CSS fundamentals in WDD 130, focusing on structuring web content with headings, paragraphs, images, and links.">
-    <link rel="stylesheet" href="styles/styles.css">
-
+    <title>WDD 131 - Dynamic Web Fundamentals</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js" defer></script>
 </head>
-
 <body>
     <header>
+        <h1>WDD 131: Dynamic Web Fundamentals</h1>
         <nav>
-            <a href="#">Home</a>
-            <a href="wwr/">Rafting Website</a>
+            <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+            <a href="https://byui.instructure.com/" target="_blank">I-Learn</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures" target="_blank">Scripture</a>
+            <a href="#" target="_blank">Final Project</a>
         </nav>
     </header>
 
     <main>
-        <h1>Oyinlola Oyedeji Ashade | WDD 130</h1>
+        <h2>OyinlolaOyedeji Ashade</h2>
+        <div class="container">
+      <section class="card about">
+    <h3>About Me</h3>
+    <div class="about-content">
+        <p>
+            My name is Oyinlola Oyedeji Ashade. I am the founder of Elddytechsolution based in Lagos, Nigeria. 
+            I am passionate about helping small businesses grow with websites, POS support, and digital training. 
+            In my free time I love learning new tech skills and building solutions that solve real problems.
+        </p>
+        <img src="images/profile.jpg" alt="Profile photo of oyinlola">
+    </div>
 
-        <p>I'm so glad about this, and I know that something good is coming!!</p>
-
-        <img src="images/profile.jpeg" alt="Profile picture of Oyinlola Ashade" width="100">
-
+    <h4>Lagos, Nigeria</h4>
+    <hr>
+    <div class="country-content">
+        <figure>
+            <img src="images/nigeria-flag.png" alt="Official Flag of Nigeria">
+            <figcaption>Official Flag of Nigeria</figcaption>
+        </figure>
+        <p>
+            Nigeria is the most populous country in Africa and a hub for tech innovation. Lagos is known as the 
+            "Silicon Valley of Africa" and is home to thousands of startups and small businesses. Elddytechsolution 
+            is proud to serve businesses here with affordable tech solutions.
+        </p>
+    </div>
+</section>
+            <section class="card resources">
+                <h3>Web Dev Resources</h3>
+                <ul>
+                    <li><a href="https://dev.to/" target="_blank">Dev.to Community</a></li>
+                    <li><a href="https://www.smashingmagazine.com/" target="_blank">Smashing Magazine</a></li>
+                    <li><a href="https://css-tricks.com/" target="_blank">CSS Tricks</a></li>
+                    <li><a href="https://www.w3schools.com/" target="_blank">W3 Schools</a></li>
+                    <li><a href="https://www.udemy.com/" target="_blank">Udemy</a></li>
+                    <li><a href="https://picsum.photos/" target="_blank">Lorem Picsum Image Placeholder</a></li>
+                </ul>
+            </section>
+        </div>
     </main>
-    <aside>
-        <h2>This is Ikeja a place in Nigeria, lagos</h2>
-        <img src="images/ikeja.jpg" alt="Thats a picture of ikeja a place in lagos, Nigeria"
-          width="100">
-        <p> This Is Ikeja</p>
-    </aside>
 
     <footer>
-        <p>&copy; 2026 All Rights Reserved | Oyinlola Oyedeji Ashade</p>
+        <p>©<span id="currentyear"></span>  Oyinlola And Peter</p>
+        <p id="lastModified"></p>
     </footer>
 </body>
-
 </html>
