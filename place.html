@@ -1,153 +1,107 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>WDD 131 - Dynamic Web Fundamentals - Nigeria</title>
+    <title>WDD 131 - Nigeria | Oyinlola Ashade</title>
 
-    <meta name="description" content="WDD 131 Dynamic Web Fundamentals course page featuring information about Oyinlola Ashade, Nigeria, and useful web development resources.">
+    <meta
+        name="description"
+        content="Learn about Nigeria, including its location, climate, weather, and interesting facts."
+    >
+
     <meta name="author" content="Oyinlola Ashade">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="styles/base.css">
-
-    <script src="scripts/getdates.js" defer></script>
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
 </head>
 
 <body>
-    <header>
-        <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span>
 
-        <nav>
-            <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
-            <a href="https://byui.instructure.com/" target="_blank" rel="noopener">I-Learn</a>
-            <a href="https://www.churchofjesuschrist.org/study/scriptures" target="_blank" rel="noopener">Scripture</a>
-            <a href="#" target="_blank" rel="noopener">Final Project</a>
-        </nav>
+    <header>
+        <h1>Nigeria</h1>
     </header>
 
     <main>
-        <h1>WDD 131: Dynamic Web Fundamentals</h1>
 
-        <div class="container">
+        <section class="hero">
+            <picture>
+                <source
+                    media="(max-width: 600px)"
+                    srcset="images/nigeria-small.webp"
+                >
+                <img
+                    src="images/nigeria-large.webp"
+                    alt="Beautiful landscape in Nigeria"
+                >
+            </picture>
+        </section>
 
-            <section class="card about">
-                <h2>Oyinlola Oyedeji Ashade</h2>
+        <section class="information">
 
-                <div class="about-content">
-                    <p>
-                        My name is Oyinlola Oyedeji Ashade. I am the founder of
-                        Elddytechsolution based in Lagos, Nigeria. I am passionate
-                        about helping small businesses grow with websites, POS
-                        support, and digital training. In my free time I love
-                        learning new tech skills and building solutions that solve
-                        real problems.
-                    </p>
+            <div class="about">
+                <h2>About Nigeria</h2>
 
-                    <img
-                        src="images/profile.jpg"
-                        alt="Profile photo of Oyinlola Ashade"
-                        width="400"
-                        height="400"
-                    >
+                <p>
+                    Nigeria is a country in West Africa known for its diverse
+                    cultures, languages, food, music, and natural landscapes.
+                    It is home to many different ethnic groups and has a rich
+                    history and cultural heritage.
+                </p>
+
+                <p>
+                    Nigeria's largest city is Lagos, while Abuja is the capital.
+                    The country has tropical forests, savannas, rivers, beaches,
+                    and busy urban centers.
+                </p>
+            </div>
+
+            <div class="weather">
+                <h2>Weather</h2>
+
+                <img
+                    class="weather-icon"
+                    src="images/weather.svg"
+                    alt="Partly cloudy weather"
+                >
+
+                <div class="weather-info">
+                    <p><strong>Temperature:</strong> 28 °C</p>
+                    <p><strong>Conditions:</strong> Partly Cloudy</p>
+                    <p><strong>Wind:</strong> 12 km/h</p>
+                    <p><strong>Wind Chill:</strong> <span id="windchill">N/A</span></p>
                 </div>
+            </div>
 
-                <h2>Lagos, Nigeria</h2>
-                <hr>
+        </section>
 
-                <div class="country-content">
-                    <figure>
-                        <img
-                            src="images/nigeria-flag.png"
-                            alt="Official Flag of Nigeria"
-                            width="300"
-                            height="150"
-                        >
-                        <figcaption>Official Flag of Nigeria</figcaption>
-                    </figure>
+        <section class="facts">
+            <h2>Interesting Facts</h2>
 
-                    <p>
-                        Nigeria is the most populous country in Africa and a hub
-                        for technology innovation. Lagos is one of Africa's
-                        leading technology and business centers and is home to
-                        many startups and small businesses. Elddytechsolution is
-                        proud to serve businesses here with affordable technology
-                        solutions.
-                    </p>
-                </div>
+            <ul>
+                <li>Nigeria is located in West Africa.</li>
+                <li>The capital city is Abuja.</li>
+                <li>Lagos is one of Nigeria's largest cities.</li>
+                <li>English is the official language.</li>
+                <li>Nigeria has hundreds of languages and ethnic groups.</li>
+                <li>The country has a coastline along the Gulf of Guinea.</li>
+            </ul>
+        </section>
 
-                <div class="weather">
-                    <h2>Lagos Weather</h2>
-
-
-                    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=weather_mix" />
-
-
-                    
-                    <img
-                        src="images/weather.svg"
-                        alt="Weather icon"
-                        width="50"
-                        height="50"
-                    >
-
-                    <p>Warm and tropical weather conditions are common in Lagos.</p>
-                </div>
-            </section>
-
-            <section class="card resources">
-                <h2>Web Dev Resources</h2>
-
-                <ul>
-                    <li>
-                        <a href="https://dev.to/" target="_blank" rel="noopener">
-                            Dev.to Community
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="https://www.smashingmagazine.com/" target="_blank" rel="noopener">
-                            Smashing Magazine
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="https://css-tricks.com/" target="_blank" rel="noopener">
-                            CSS Tricks
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="https://www.w3schools.com/" target="_blank" rel="noopener">
-                            W3 Schools
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="https://www.udemy.com/" target="_blank" rel="noopener">
-                            Udemy
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="https://picsum.photos/" target="_blank" rel="noopener">
-                            Image Placeholder
-                        </a>
-                    </li>
-                </ul>
-            </section>
-
-        </div>
     </main>
 
     <footer>
-        <p>© <span id="currentyear"></span> Oyinlola And Peter</p>
-        <p id="lastModified"></p>
+        <p>
+            &copy; <span id="currentyear"></span> | Oyinlola Ashade | Nigeria
+        </p>
+
+        <p>
+            Last Modified: <span id="lastModified"></span>
+        </p>
     </footer>
+
 </body>
 </html>
 ```
