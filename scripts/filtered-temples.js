@@ -1,4 +1,4 @@
-const temples = [
+const filtered-temples = [
   {
     templeName: "Aba Nigeria",
     location: "Aba, Nigeria",
