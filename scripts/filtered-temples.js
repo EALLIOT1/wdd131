@@ -1,4 +1,4 @@
-onst temples = [
+const temples = [
   {
     templeName: "Aba Nigeria",
     location: "Aba, Nigeria",
