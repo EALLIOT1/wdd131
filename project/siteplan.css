@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@600;700&display=swap');
+
+:root {
+    --primary-color: #1A3A5F;
+    --secondary-color: #2A5D8F;
+    --background-color: #F4F7FA;
+    --white: #FFFFFF;
+    --text-color: #222222;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--white);
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-family: "Roboto Slab", serif;
+    font-size: 2.5rem;
+}
+
+main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    background-color: var(--white);
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+h2 {
+    color: var(--primary-color);
+    font-family: "Roboto Slab", serif;
+    border-bottom: 3px solid var(--secondary-color);
+    padding-bottom: 0.5rem;
+}
+
+h3 {
+    color: var(--secondary-color);
+    font-family: "Roboto Slab", serif;
+}
+
+.color-box {
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+}
+
+.primary-color {
+    background-color: #1A3A5F;
+    color: white;
+}
+
+.primary-color h3 {
+    color: white;
+}
+
+.secondary-color {
+    background-color: #2A5D8F;
+    color: white;
+}
+
+.secondary-color h3 {
+    color: white;
+}
+
+.background-color {
+    background-color: #F4F7FA;
+    border: 2px solid #1A3A5F;
+}
+
+.wireframe {
+    border: 3px solid var(--primary-color);
+    padding: 1rem;
+    margin: 1rem auto 2rem;
+    background-color: white;
+}
+
+.mobile-wireframe {
+    max-width: 350px;
+}
+
+.desktop-wireframe {
+    max-width: 900px;
+}
+
+.wire-header,
+.wire-nav,
+.wire-hero,
+.wire-content,
+.wire-footer {
+    border: 2px solid var(--secondary-color);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.wire-header {
+    background-color: #DCE8F2;
+}
+
+.wire-nav {
+    background-color: #EAF1F7;
+}
+
+.wire-hero {
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wire-content {
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wire-footer {
+    background-color: #DCE8F2;
+}
+
+.wire-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+@media (max-width: 700px) {
+
+    .wire-columns {
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        padding: 1.2rem;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+}
