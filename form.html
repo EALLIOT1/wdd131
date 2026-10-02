@@ -11,8 +11,16 @@
     <meta name="author" content="Oyinlola Ashade">
 
     <title>Product Review Form | WDD 131</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@600;700&display=swap"
+        rel="stylesheet">
 
+    <!-- CSS -->
     <link rel="stylesheet" href="styles/form.css">
+
+    
     <script src="scripts/form.js" defer></script>
 </head>
 
@@ -25,6 +33,7 @@
     <main>
         <form method="get" action="review.html">
 
+            <!-- Product Name -->
             <fieldset>
                 <legend>Product Information</legend>
 
@@ -37,10 +46,10 @@
                         Select a Product ...
                     </option>
                 </select>
-
             </fieldset>
 
 
+        
             <fieldset>
                 <legend>Overall Rating</legend>
 
@@ -62,7 +71,8 @@
                             type="radio"
                             id="rating2"
                             name="rating"
-                            value="2">
+                            value="2"
+                            required>
                     </label>
 
                     <label for="rating3">
@@ -71,7 +81,8 @@
                             type="radio"
                             id="rating3"
                             name="rating"
-                            value="3">
+                            value="3"
+                            required>
                     </label>
 
                     <label for="rating4">
@@ -80,7 +91,8 @@
                             type="radio"
                             id="rating4"
                             name="rating"
-                            value="4">
+                            value="4"
+                            required>
                     </label>
 
                     <label for="rating5">
@@ -89,16 +101,16 @@
                             type="radio"
                             id="rating5"
                             name="rating"
-                            value="5">
+                            value="5"
+                            required>
                     </label>
 
                 </div>
-
             </fieldset>
 
 
+            <!-- Date of Installation -->
             <fieldset>
-
                 <legend>Installation Information</legend>
 
                 <label for="installDate">
@@ -110,17 +122,16 @@
                     id="installDate"
                     name="installDate"
                     required>
-
             </fieldset>
 
 
+            <!-- Useful Features -->
             <fieldset>
-
                 <legend>Useful Features</legend>
 
                 <p>Check all that apply:</p>
 
-                <label>
+                <label for="durability">
                     <input
                         type="checkbox"
                         id="durability"
@@ -129,7 +140,7 @@
                     Durability
                 </label>
 
-                <label>
+                <label for="ease">
                     <input
                         type="checkbox"
                         id="ease"
@@ -138,7 +149,7 @@
                     Ease of Use
                 </label>
 
-                <label>
+                <label for="performance">
                     <input
                         type="checkbox"
                         id="performance"
@@ -147,7 +158,7 @@
                     Performance
                 </label>
 
-                <label>
+                <label for="design">
                     <input
                         type="checkbox"
                         id="design"
@@ -155,12 +166,11 @@
                         value="Design">
                     Design
                 </label>
-
             </fieldset>
 
 
+            <!-- Written Review -->
             <fieldset>
-
                 <legend>Written Review</legend>
 
                 <label for="review">
@@ -172,12 +182,11 @@
                     name="review"
                     rows="6"
                     placeholder="Write your review here..."></textarea>
-
             </fieldset>
 
 
+            <!-- User Name -->
             <fieldset>
-
                 <legend>Your Information</legend>
 
                 <label for="userName">
@@ -189,10 +198,10 @@
                     id="userName"
                     name="userName"
                     autocomplete="name">
-
             </fieldset>
 
 
+            <!-- Submit -->
             <input
                 type="submit"
                 value="Submit Review">
@@ -210,3 +219,4 @@
 </body>
 
 </html>
+```
