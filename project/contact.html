@@ -1,1 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact ElddyTechSolution about a small business website, social media setup, or digital support project.">
+  <meta name="author" content="ElddyTechSolution"><title>Contact | ElddyTechSolution</title>
+  <link rel="stylesheet" href="styles/site.css"><script src="scripts/site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header"><div class="container header-row">
+    <a class="brand" href="index.html"><span class="brand-mark">E</span><span><strong>ElddyTechSolution</strong><small>Tech Made Simple</small></span></a>
+    <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="services.html">Services</a><a href="about.html">About</a><a class="nav-cta active" href="contact.html">Get Started</a></nav>
+  </div></header>
+  <main id="main">
+    <section class="page-hero"><div class="container narrow"><p class="eyebrow">LET'S TALK</p><h1>Tell us about your business.</h1><p>Share what you do and what kind of digital support you need. This demo form saves your inquiry in this browser so you can see how the interaction works.</p></div></section>
+    <section class="section"><div class="container contact-layout">
+      <div class="contact-copy"><p class="eyebrow">START A CONVERSATION</p><h2>What would you like to build?</h2><p>Whether you need a first website or want to organise your business social media, a few details will help define the next step.</p><div class="contact-note"><span class="service-icon">✉</span><div><strong>Prefer a direct message?</strong><p>Replace this text with your verified business email or WhatsApp link before publishing for real customers.</p></div></div><div class="contact-note"><span class="service-icon">✓</span><div><strong>No pressure</strong><p>Use this form to outline your needs and clarify what matters most to your business.</p></div></div></div>
+      <form class="contact-form" id="contact-form">
+        <h2>Project inquiry</h2>
+        <p class="form-intro">Fields marked with * are required.</p>
+        <label for="full-name">Your name *</label><input id="full-name" name="fullName" autocomplete="name" required minlength="2" placeholder="e.g. Ada Okafor">
+        <label for="business-name">Business name</label><input id="business-name" name="businessName" autocomplete="organization" placeholder="Your business or brand">
+        <label for="email">Email address *</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com">
+        <label for="service">What do you need? *</label><select id="service" name="service" required><option value="">Choose a service</option><option value="Business website">Business website</option><option value="Social media setup">Social media setup</option><option value="Digital business support">Digital business support</option><option value="Not sure yet">Not sure yet</option></select>
+        <label for="message">Tell us a little about your project *</label><textarea id="message" name="message" rows="5" required minlength="10" placeholder="What does your business do, and what would you like help with?"></textarea>
+        <label class="consent-row"><input id="consent" name="consent" type="checkbox" required><span>I understand this demonstration form stores the inquiry in this browser only. *</span></label>
+        <button class="button button-primary submit-button" type="submit">Save inquiry <span aria-hidden="true">→</span></button>
+        <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div></section>
+    <section class="section section-light"><div class="container saved-inquiries"><div><p class="eyebrow">LOCAL DEMO FEATURE</p><h2>Your saved inquiries</h2><p>Submissions are stored in your browser using localStorage for this class project. They are not sent to a real business inbox or server.</p></div><div id="saved-inquiries" class="saved-list"><p class="empty-state">No inquiries saved on this browser yet.</p></div><button class="button button-secondary" type="button" id="clear-inquiries">Clear saved inquiries</button></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-grid"><div><a class="brand footer-brand" href="index.html"><span class="brand-mark">E</span><span><strong>ElddyTechSolution</strong><small>Tech Made Simple</small></span></a><p>Helping local businesses take confident steps into the digital world.</p></div><div><h2 class="footer-title">Explore</h2><a href="index.html">Home</a><a href="services.html">Our services</a><a href="about.html">About us</a></div><div><h2 class="footer-title">Get in touch</h2><p>Have a business idea or project in mind?</p><a class="footer-contact" href="#contact-form">Send an inquiry ↑</a></div></div><div class="container footer-bottom"><span>© <span id="current-year">2026</span> ElddyTechSolution</span><span>Tech Made Simple.</span></div></footer>
+</body></html>
 
