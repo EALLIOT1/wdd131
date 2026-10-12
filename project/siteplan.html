@@ -1,114 +1,127 @@
-<!DOCTYPE html>
+<!Doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ElddyTech Solution - Website Planning Document & Product Review | WDD 131</title>
-    <meta name="description" content="Website planning document and project proposal for ElddyTech Solution by Oyinlola Ashade for WDD 131.">
-    <meta name="author" content="Oyinlola Ashade">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="styles/base.css">
-
-    <script src="scripts/getdates.js" defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ElddyTechSolution helps local businesses get online with simple websites, social media setup, and practical digital support.">
+  <meta name="author" content="ElddyTechSolution">
+  <title>ElddyTechSolution | Tech Made Simple</title>
+  <link rel="stylesheet" href="styles/site.css">
+  <script src="scripts/site.js" defer></script>
 </head>
-
 <body>
-    <header>
-        <span id="course-title">ElddyTech Solution - WDD 131</span>
-        <h1>ElddyTech Solution</h1>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="index.html" aria-label="ElddyTechSolution home">
+        <span class="brand-mark" aria-hidden="true">E</span>
+        <span><strong>ElddyTechSolution</strong><small>Tech Made Simple</small></span>
+      </a>
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+        <a class="active" href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a class="nav-cta" href="contact.html">Get Started</a>
+      </nav>
+    </div>
+  </header>
 
-        <nav>
-            <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
-            <a href="https://byui.instructure.com/" target="_blank">I-Learn</a>
-            <a href="https://www.churchofjesuschrist.org/study/scriptures" target="_blank">Scripture</a>
-            <a href="#" target="_blank">Final Project</a>
-        </nav>
-    </header>
-
-    <main>
-        <h2>Oyinlola Oyedeji Ashade</h2>
-
-        <div class="container">
-
-            <section class="card about">
-                <h3>About Me</h3>
-
-                <div class="about-content">
-                    <p>
-                        My name is Oyinlola Oyedeji Ashade. I am the founder of
-                        ElddyTech Solution based in Lagos, Nigeria. I am passionate
-                        about helping small businesses grow with websites, POS
-                        support, and digital training. In my free time I love
-                        learning new tech skills and building solutions that solve
-                        real problems.
-                    </p>
-
-                    <img src="images/profile.jpg" alt="Profile photo of Oyinlola Ashade">
-                </div>
-
-                <h4>Lagos, Nigeria</h4>
-                <hr>
-
-                <div class="country-content">
-                    <figure>
-                        <img src="images/nigeria-flag.png" alt="Official Flag of Nigeria">
-                        <figcaption>Official Flag of Nigeria</figcaption>
-                    </figure>
-
-                    <p>
-                        Nigeria is the most populous country in Africa and a hub
-                        for tech innovation. Lagos is known as the "Silicon Valley
-                        of Africa" and is home to thousands of startups and small
-                        businesses. ElddyTech Solution is proud to serve businesses
-                        here with affordable tech solutions.
-                    </p>
-                </div>
-            </section>
-
-            <section class="card resources">
-                <h3>Web Dev Resources</h3>
-
-                <ul>
-                    <li>
-                        <a href="https://dev.to/" target="_blank">Dev.to Community</a>
-                    </li>
-                    <li>
-                        <a href="https://www.smashingmagazine.com/" target="_blank">
-                            Smashing Magazine
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://css-tricks.com/" target="_blank">
-                            CSS Tricks
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.w3schools.com/" target="_blank">
-                            W3 Schools
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.udemy.com/" target="_blank">Udemy</a>
-                    </li>
-                    <li>
-                        <a href="https://picsum.photos/" target="_blank">
-                            Image Placeholder
-                        </a>
-                    </li>
-                </ul>
-            </section>
-
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">DIGITAL SOLUTIONS FOR SMALL BUSINESSES</p>
+          <h1>Your business deserves to be <span>seen online.</span></h1>
+          <p class="hero-intro">We make technology simple for local businesses. Get a professional website, set up your social media, and help more customers discover what you do.</p>
+          <div class="button-row">
+            <a class="button button-primary" href="contact.html">Start your project <span aria-hidden="true">→</span></a>
+            <a class="button button-secondary" href="services.html">Explore services</a>
+          </div>
+          <div class="trust-note"><span class="check-dot" aria-hidden="true">✓</span> Clear guidance. Practical digital support. Built around your business.</div>
         </div>
-    </main>
+        <div class="hero-art" aria-label="Illustration of a business website on a laptop and phone" role="img">
+          <div class="float-card card-top"><span class="mini-icon">↗</span><span><strong>Grow online</strong><small>One step at a time</small></span></div>
+          <div class="device laptop">
+            <div class="screen">
+              <div class="screen-bar"><i></i><i></i><i></i></div>
+              <div class="mock-brand"><b>E</b><span>your business</span></div>
+              <div class="mock-title"></div><div class="mock-title short"></div>
+              <div class="mock-button"></div>
+              <div class="mock-photo"></div>
+            </div>
+          </div>
+          <div class="device phone"><div class="phone-screen"><div class="phone-notch"></div><div class="phone-logo">E</div><div class="phone-line"></div><div class="phone-line short"></div><div class="phone-image"></div><div class="phone-action"></div></div></div>
+          <div class="float-card card-bottom"><span class="mini-icon">◎</span><span><strong>Made simple</strong><small>Digital tools for real people</small></span></div>
+        </div>
+      </div>
+    </section>
 
-    <footer>
-        <p>© <span id="currentyear"></span> ElddyTech Solution | Oyinlola Ashade</p>
-        <p id="lastModified"></p>
-    </footer>
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT WE DO</p>
+          <h2>Simple services. Real business value.</h2>
+          <p>You focus on serving customers. We help you build the digital basics that make your business easier to find.</p>
+        </div>
+        <div class="service-grid" id="featured-services">
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">⌘</div>
+            <h3>Business Websites</h3>
+            <p>Give customers one reliable place to learn about your business, services, location, and contact details.</p>
+            <a class="text-link" href="services.html#websites">Explore website design <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">◎</div>
+            <h3>Social Media Setup</h3>
+            <p>Set up or improve your business pages so customers can discover your products and reach you.</p>
+            <a class="text-link" href="services.html#social-media">Explore social media <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">✦</div>
+            <h3>Digital Business Support</h3>
+            <p>Get practical help with online tools, business information, and the next steps in your digital journey.</p>
+            <a class="text-link" href="services.html#support">Explore digital support <span aria-hidden="true">→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
 
+    <section class="section">
+      <div class="container split-section">
+        <div class="split-copy">
+          <p class="eyebrow">OUR APPROACH</p>
+          <h2>Online presence should not feel complicated.</h2>
+          <p>Many small businesses do great work but are difficult to find online. ElddyTechSolution helps make the first steps easier with straightforward guidance and solutions suited to your goals.</p>
+          <ul class="check-list">
+            <li>Friendly, clear communication</li>
+            <li>Mobile-friendly website experiences</li>
+            <li>Practical solutions for small businesses</li>
+          </ul>
+          <a class="button button-primary" href="about.html">Meet ElddyTechSolution</a>
+        </div>
+        <div class="image-panel">
+          <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1000&q=80" alt="Small business team discussing ideas around a table" loading="lazy" width="1000" height="750">
+          <div class="image-caption"><strong>Small business, bigger possibilities.</strong><span>Let's take your next digital step.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="container cta-row">
+        <div><p class="eyebrow">READY TO GET STARTED?</p><h2>Let's put your business on the map.</h2><p>Tell us what you do and what you need. We'll help you identify a practical next step.</p></div>
+        <a class="button button-light" href="contact.html">Talk about your project <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><a class="brand footer-brand" href="index.html"><span class="brand-mark">E</span><span><strong>ElddyTechSolution</strong><small>Tech Made Simple</small></span></a><p>Helping local businesses take confident steps into the digital world.</p></div>
+      <div><h2 class="footer-title">Explore</h2><a href="services.html">Our services</a><a href="about.html">About us</a><a href="contact.html">Contact</a></div>
+      <div><h2 class="footer-title">Get in touch</h2><p>Have a business idea or project in mind?</p><a class="footer-contact" href="contact.html">Send an inquiry →</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="current-year">2026</span> ElddyTechSolution</span><span>Tech Made Simple.</span></div>
+  </footer>
 </body>
 </html>
