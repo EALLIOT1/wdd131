@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Learn about ElddyTechSolution and our mission to make websites and digital tools easier for local businesses.">
+  <meta name="author" content="ElddyTechSolution"><title>About | ElddyTechSolution</title>
+  <link rel="stylesheet" href="styles/site.css"><script src="scripts/site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header"><div class="container header-row">
+    <a class="brand" href="index.html"><span class="brand-mark">E</span><span><strong>ElddyTechSolution</strong><small>Tech Made Simple</small></span></a>
+    <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="services.html">Services</a><a class="active" href="about.html">About</a><a class="nav-cta" href="contact.html">Get Started</a></nav>
+  </div></header>
+  <main id="main">
+    <section class="page-hero"><div class="container narrow"><p class="eyebrow">ABOUT ELDDYTECHSOLUTION</p><h1>Technology should open doors, not create confusion.</h1><p>Our goal is to help local businesses take practical steps toward a stronger online presence.</p></div></section>
+    <section class="section"><div class="container split-section about-split"><div class="split-copy"><p class="eyebrow">OUR PURPOSE</p><h2>Making digital tools easier to use.</h2><p>Many local business owners are experts at what they do but may not have the time or experience to build a website or organise their social media presence. ElddyTechSolution exists to help close that gap.</p><p>We believe a useful digital presence starts with understanding the business, choosing the right first step, and making information easy for customers to find.</p><h3>Our motto: Tech Made Simple.</h3><a class="button button-primary" href="contact.html">Let's discuss your business</a></div><div class="image-panel"><img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1000&q=80" alt="Colleagues collaborating on a business project" loading="lazy" width="1000" height="750"><div class="image-caption"><strong>Built around your goals.</strong><span>Useful technology, explained clearly.</span></div></div></div></section>
+    <section class="section section-light"><div class="container"><div class="section-heading"><p class="eyebrow">OUR PRINCIPLES</p><h2>How we approach each project</h2></div><div class="values-grid"><article><span>01</span><h3>Keep it clear</h3><p>Explain options in everyday language and make the next step understandable.</p></article><article><span>02</span><h3>Start with the customer</h3><p>Build around what a business and its customers actually need.</p></article><article><span>03</span><h3>Make it practical</h3><p>Prioritise useful, responsive solutions that are easy to navigate.</p></article></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-grid"><div><a class="brand footer-brand" href="index.html"><span class="brand-mark">E</span><span><strong>ElddyTechSolution</strong><small>Tech Made Simple</small></span></a><p>Helping local businesses take confident steps into the digital world.</p></div><div><h2 class="footer-title">Explore</h2><a href="index.html">Home</a><a href="services.html">Our services</a><a href="contact.html">Contact</a></div><div><h2 class="footer-title">Get in touch</h2><p>Have a business idea or project in mind?</p><a class="footer-contact" href="contact.html">Send an inquiry →</a></div></div><div class="container footer-bottom"><span>© <span id="current-year">2026</span> ElddyTechSolution</span><span>Tech Made Simple.</span></div></footer>
+</body>
+</html>
