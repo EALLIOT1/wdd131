@@ -1,1 +1,151 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact ElddyTechSolutions to discuss website development, IT support, cloud solutions, and your next technology project.">
+  <meta name="theme-color" content="#081426">
+  <title>Contact Us | ElddyTechSolutions</title>
+  <link rel="stylesheet" href="styles/site.css">
+  <script src="scripts/site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="index.html">
+        <span class="brand-icon" aria-hidden="true">E</span>
+        <span>ElddyTech<span class="accent">Solutions</span></span>
+      </a>
+      <button class="menu-toggle" type="button"
+        aria-label="Open navigation" aria-expanded="false"
+        aria-controls="primary-menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="primary-menu">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+        <button class="theme-toggle" type="button"
+          aria-label="Switch color theme">☾ Theme</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h1>Let's talk about <span class="gradient-text">your idea.</span></h1>
+        <p>Tell us what you want to achieve. Use the form below to outline
+          your project or technology needs.</p>
+      </div>
+    </section>
+
+    <section class="section section-light">
+      <div class="container contact-grid">
+        <div class="contact-information">
+          <p class="eyebrow">GET IN TOUCH</p>
+          <h2>Every great solution starts with a conversation.</h2>
+          <p>
+            Whether you're planning a website, looking for IT support, or
+            exploring a digital idea, share a few details to get started.
+          </p>
+          <div class="contact-detail">
+            <span class="contact-icon" aria-hidden="true">✉</span>
+            <div>
+              <h3>Email</h3>
+              <p>Use the contact form to describe your enquiry.</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-icon" aria-hidden="true">⌘</span>
+            <div>
+              <h3>Our focus</h3>
+              <p>Web development, IT support, and digital solutions.</p>
+            </div>
+          </div>
+          <div class="contact-note">
+            <strong>Project tip</strong>
+            <p>Include your goals, preferred features, and timeline so your
+              enquiry is easier to understand.</p>
+          </div>
+        </div>
+
+        <div class="contact-form-card">
+          <h2>Send an enquiry</h2>
+          <p class="form-intro">Fields marked with * are required.</p>
+
+          <form id="contact-form">
+            <div class="form-field">
+              <label for="name">Full name *</label>
+              <input id="name" name="name" type="text"
+                autocomplete="name" minlength="2" maxlength="80"
+                placeholder="Your full name" required>
+            </div>
+
+            <div class="form-field">
+              <label for="email">Email address *</label>
+              <input id="email" name="email" type="email"
+                autocomplete="email" maxlength="120"
+                placeholder="you@example.com" required>
+            </div>
+
+            <div class="form-field">
+              <label for="service">Service of interest *</label>
+              <select id="service" name="service" required>
+                <option value="">Select a service</option>
+                <option value="Web Development">Web Development</option>
+                <option value="IT Support">IT Support</option>
+                <option value="Cloud Solutions">Cloud Solutions</option>
+                <option value="Cybersecurity Awareness">Cybersecurity Awareness</option>
+                <option value="Digital Consulting">Digital Consulting</option>
+                <option value="Other Enquiry">Other Enquiry</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <label for="message">Tell us about your project *</label>
+              <textarea id="message" name="message" rows="5"
+                minlength="10" maxlength="1500"
+                placeholder="What would you like help with?"
+                required></textarea>
+              <small class="field-hint">At least 10 characters.</small>
+            </div>
+
+            <button class="button button-primary form-submit" type="submit">
+              Submit enquiry <span aria-hidden="true">→</span>
+            </button>
+            <p id="form-status" class="form-status" role="status"
+              aria-live="polite"></p>
+            <p class="form-disclaimer">
+              Demonstration form: submissions are saved only in this
+              browser. No email is sent to the business.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <a class="brand footer-brand" href="index.html">
+        <span class="brand-icon">E</span>
+        <span>ElddyTech<span class="accent">Solutions</span></span>
+      </a>
+      <p>Smart technology. Better possibilities.</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <p class="copyright">© <span class="current-year"></span>
+        ElddyTechSolutions. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
